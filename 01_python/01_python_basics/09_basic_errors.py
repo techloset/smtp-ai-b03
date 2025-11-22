@@ -1,24 +1,32 @@
-# Syntax errors are caused by mistakes in the code that the interpreter cannot understand.
-
-# print("Hello, World!") # This will cause a syntax error.
-# Missing parentheses is a syntax error.
-# print("Hello, World!") # This will cause a syntax error.
-
-# IndentationError is a syntax error.
-# print("Hello, World!") # This will cause a syntax error.
-# print("Hello, World!") # This will cause a syntax error.
-# print("Hello, World!") # This will cause a syntax error.
+# Examples of common syntax errors and runtime errors.
 
 
+print("This file shows examples of common Python errors.")
 
+# ----------------------
+# Syntax error examples
+# ----------------------
 
-# Runtime errors are caused by mistakes in the code that the interpreter can understand but will cause the program to crash.
+# 1) Missing closing parenthesis
+# print("Hello, World!"   # SyntaxError: '(' was never closed
 
-# Dividing by zero is a runtime error.
-# print(10 / 0) # This will cause a runtime error.
+# 2) Wrong indentation
+#   print("Bad indent")   # IndentationError
 
-# TypeError is a runtime error.
-# print(10 + "10") # This will cause a runtime error.
+# ----------------------
+# Runtime error examples
+# ----------------------
 
-# ValueError is a runtime error.
-# print(int("10a")) # This will cause a runtime error.
+# 3) ZeroDivisionError
+# result = 10 / 0
+# print(result)
+
+# 4) TypeError - mixing incompatible types
+# total = 10 + "10"
+# print(total)
+
+# 5) ValueError - invalid conversion
+# number = int("10a")
+# print(number)
+
+print("Run this file, then uncomment one error example to see what happens.")
