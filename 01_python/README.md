@@ -3,7 +3,7 @@
 
 ## Overall Goals
 
-By the end of this module, I want you to be able to:
+By the end of this module, you will be able to:
 
 - **Write** small Python programs using variables, control flow, functions, and data structures on your own.
 - **Work with data** such as strings, lists, dictionaries, files, and handle simple errors confidently.
@@ -16,8 +16,8 @@ By the end of this module, I want you to be able to:
 ## Introduction & First Steps
 
 **Main goals**
-- I want you to feel comfortable with the Python environment you will be using (editor, terminal, and how to run code).
-- I want you to successfully run your **first Python programs** by yourself.
+- Feel comfortable with the Python environment we will be using (editor, terminal, and how to run code).
+- Successfully run your **first Python programs** by yourself.
 
 **Topics**
 - What Python is and where it is used (web, data, AI, automation), so you see why it is worth your time.
@@ -43,8 +43,8 @@ By the end of this module, I want you to be able to:
 ## Variables, Input & Basic Errors
 
 **Main goals**
-- I want you to understand **variables** and **user input** and use them comfortably.
-- I want you to be able to read basic error messages without getting scared and to fix simple mistakes.
+- Understand **variables** and **user input** and use them comfortably.
+- Read basic error messages without getting scared and to fix simple mistakes.
 
 **Topics**
 - Quick revision of Python basics with small examples:
@@ -103,7 +103,7 @@ print(user_age)
   - [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) (if arrays are too early, think through it conceptually).
   - [1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) (also simple addition).
 - **Custom practice problems**
-  - Ask the user for length and width and print the area (length * width) and perimeter ( 2 * [length + width]) of a rectangle.
+  - Get length and width from user and print the area (length * width) and perimeter ( 2 * [length + width]) of a rectangle.
   - Ask the user for two numbers and print which one is larger or if they are equal.
   - Ask for a number of minutes and convert it to hours and minutes (for example, `130` minutes → `2 hours 10 minutes`).
 
@@ -111,7 +111,7 @@ print(user_age)
 
 ## Conditions (if/elif/else) 
 **Main goals**
-- I want you to use `if`, `elif`, `else` to make decisions in your programs.
+- How to use `if`, `elif`, `else` to make decisions in your programs.
 
 **Topics**
 - Boolean expressions: `>`, `<`, `>=`, `<=`, `==`, `!=` to compare values.
@@ -181,9 +181,9 @@ else:
   - [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) (only numeric version).
   - [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) (great for conditions and loops; I may revisit this later when we learn loops).
 - **Custom practice problems**
-  - I want you to write a program that checks if a year is a leap year.
-  - I want you to write a program that decides if a student passes or fails based on multiple subject marks and overall average.
-  - I want you to write a simple traffic light helper: input color (`red`, `yellow`, `green`) and print what the driver should do.
+  - Write a program that checks if a year is a leap year.
+  - Write a program that decides if a student passes or fails based on multiple subject marks and overall average.
+  - Write a simple traffic light helper: input color (`red`, `yellow`, `green`) and print what the driver should do.
 
 ---
 
@@ -253,16 +253,16 @@ for n in range(1, 11):
   - [1342. Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/).
   - [383. Ransom Note](https://leetcode.com/problems/ransom-note/) (loop through characters; even if you don’t use dictionaries yet, you can still try it with basic tools).
 - **Custom practice problems**
-  - I want you to print all even numbers between two given numbers.
-  - I want you to compute the factorial of a number using a loop.
-  - I want you to reverse a string using a loop (no slicing yet, unless I decide to show it as a shortcut).
+  - Print all even numbers between two given numbers.
+  - Compute the factorial of a number using a loop.
+  - Reverse a string using a loop (no slicing yet, unless I decide to show it as a shortcut).
 
 ---
 
 ## Functions – Basics
 **Main goals**
-- I want you to be able to define and use your own **functions**.
-- I want you to understand parameters and return values and how data moves in and out of a function.
+- Want you to be able to define and use your own **functions**.
+- Want you to understand parameters and return values and how data moves in and out of a function.
 
 **Topics**
 - Why we use functions: reuse, clarity, and better organization of code.
@@ -292,7 +292,7 @@ print("Sum:", result)
 
 ## More Functions & Problem Decomposition 
 **Main goals**
-- I want you to break a bigger problem into multiple smaller functions.
+- Break a bigger problem into multiple smaller functions.
 - I want you to practice passing values into functions and returning results from them.
 
 **Topics**
@@ -336,7 +336,7 @@ print(sum_of_squares(2, 3))  # 13
 
 ## Lists – Basics 
 **Main goals**
-- I want you to use **lists** to store and work with collections of values.
+- How to use **lists** to store and work with collections of values.
 
 **Topics**
 - Create lists like `[]` and `[1, 2, 3]`.
@@ -371,7 +371,7 @@ for name in students:
 
 ## More Lists & Basic List Algorithms 
 **Main goals**
-- I want you to practice solving small problems using lists.
+- Practice solving small problems using lists.
 
 **Topics**
 - Slicing: `list[start:end:step]`.
@@ -411,16 +411,16 @@ print("Odds:", odds)
   - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/).
   - [136. Single Number](https://leetcode.com/problems/single-number/).
 - **Custom practice problems**
-  - I want you to merge two sorted lists into one sorted list.
-  - I want you to rotate a list to the right by `k` steps (simple version).
-  - I want you to take a list of numbers and move all zeros to the end (keeping the order of the other numbers the same).
+  - Merge two sorted lists into one sorted list.
+  - Rotate a list to the right by `k` steps (simple version).
+  - Take a list of numbers and move all zeros to the end (keeping the order of the other numbers the same).
 
 ---
 
 ## Strings in Detail
 
 **Main goals**
-- I want you to work comfortably with **strings**.
+- How to work comfortably with **strings**.
 
 **Topics**
 - Indexing and slicing strings.
@@ -451,7 +451,7 @@ print(words)  # ['HELLO', 'WORLD!']
 
 ## Dictionaries & Sets (Intro)
 **Main goals**
-- I want you to understand **dictionaries** and **sets** conceptually and practically.
+- To understand **dictionaries** and **sets** conceptually and practically.
 
 **Topics**
 - Dictionaries:
@@ -488,16 +488,16 @@ print(emails)  # duplicate 'a@example.com' appears only once
   - [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/).
   - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/).
 - **Custom practice problems**
-  - I want you to take a sentence and output the top 3 most frequent words.
-  - I want you to replace all repeated characters in a string with `*` except the first occurrence.
-  - I want you to build a mini phonebook using a dictionary (name → phone) and allow simple lookup by name.
+  - Take a sentence and output the top 3 most frequent words.
+  - Replace all repeated characters in a string with `*` except the first occurrence.
+  - Build a mini phonebook using a dictionary (name → phone) and allow simple lookup by name.
 
 ---
 
 ## Files & Basic Error Handling
 **Main goals**
-- I want you to be able to read from and write to text files.
-- I want you to handle simple errors with `try/except` instead of letting your program crash.
+- To be able to read from and write to text files.
+- To handle simple errors with `try/except` instead of letting your program crash.
 
 **Topics**
 - Opening files using `with open(...) as f:`.
@@ -530,7 +530,7 @@ with open("notes.txt") as f:
 
 ## Putting It Together – Small Project 
 **Main goals**
-- I want you to combine **functions, loops, lists, strings, files** in a small but complete program.
+- Combine **functions, loops, lists, strings, files** in a small but complete program.
 
 **Topics**
 - Plan a small project, for example: **To‑Do List app**, **Student grade manager**, or **Simple contact manager**.
@@ -562,7 +562,7 @@ with open("notes.txt") as f:
 
 ## Intro to Modules & Standard Library 
 **Main goals**
-- I want you to understand what modules are and how to use Python’s standard library.
+- To understand what modules are and how to use Python’s standard library.
 
 **Topics**
 - What a module is and how to `import` it, for example:
@@ -599,8 +599,8 @@ print("Current time:", now)
 
 ## Review, Practice, and Next Steps 
 **Main goals**
-- I want to review all key concepts with you and practice problem‑solving together.
-- I want to show you clear next steps after this module.
+- Review all key concepts with you and practice problem‑solving together.
+- To show you clear next steps after this module.
 
 **Topics**
 - Quick recap:
