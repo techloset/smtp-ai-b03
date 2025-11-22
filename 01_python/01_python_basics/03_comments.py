@@ -1,3 +1,4 @@
+# We use comments to explain our code so other people (and our future self) can understand it easily.
 # How to write comments in Python.
 
 # This is a single-line comment.

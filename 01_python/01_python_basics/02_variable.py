@@ -1,4 +1,4 @@
-
+# We use variables to store changing data like user info, settings, and results while a program runs.
 # Examples of creating and using variables.
 
 # Store simple values in variables

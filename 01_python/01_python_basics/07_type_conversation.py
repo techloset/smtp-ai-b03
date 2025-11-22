@@ -1,3 +1,4 @@
+# We convert between data types when reading user input, working with files, or doing math on text data.
 # Converting between different data types.
 
 # String to integer

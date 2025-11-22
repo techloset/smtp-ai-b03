@@ -1,3 +1,4 @@
+# We use different data types to model real-world values like numbers, text, and yes/no flags correctly.
 # Examples of basic Python data types.
 
 # Integer (whole number)

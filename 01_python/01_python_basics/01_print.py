@@ -1,3 +1,4 @@
+# We use print() to display information to the user and to see what our program is doing.
 # Basic examples of using print() to show output.
 
 

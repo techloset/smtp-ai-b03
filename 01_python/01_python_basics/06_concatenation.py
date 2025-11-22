@@ -1,3 +1,4 @@
+# We join strings when we want to build messages, emails, and labels from smaller text pieces.
 # Joining (concatenating) strings together.
 
 first_name = "Danish"

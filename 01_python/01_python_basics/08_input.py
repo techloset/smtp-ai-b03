@@ -1,3 +1,4 @@
+# We take input from users to make programs interactive, like forms, quizzes, and calculators.
 # Getting input from the user.
 
 name = input("Enter your name: ")

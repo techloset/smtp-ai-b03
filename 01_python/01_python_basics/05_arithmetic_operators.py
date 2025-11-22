@@ -1,3 +1,4 @@
+# We use arithmetic operators for calculations in apps like billing systems, games, and statistics tools.
 # Examples of basic arithmetic operations in Python.
 
 a = 10

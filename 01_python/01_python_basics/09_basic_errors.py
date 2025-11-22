@@ -1,3 +1,4 @@
+# We study basic errors so we can quickly find bugs and make our programs more reliable.
 # Examples of common syntax errors and runtime errors.
 
 
