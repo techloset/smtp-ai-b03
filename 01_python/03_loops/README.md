@@ -2,7 +2,7 @@
 
 This folder covers **repeating actions** with loops.
 
-## Key ideas
+## Topics in this folder
 
 - **for loops**  
   Repeat a block of code for each item in a sequence (like a list or string) or for a range of numbers.
@@ -16,6 +16,17 @@ This folder covers **repeating actions** with loops.
 
 - **range() function**  
   Generate a sequence of numbers, often used with `for` loops.
+
+## Recommended file order (roadmap)
+
+Work through these files in this order:
+
+1. `01_for_basic.py` – basic `for` loops that count numbers and loop over a list of names.  
+2. `02_for_range_examples.py` – using `range()` for even numbers and a simple countdown.  
+3. `03_while_basic.py` – `while` loops that count up and a simple password check that repeats until correct.  
+4. `04_break_continue.py` – using `break` to stop a loop early and `continue` to skip some values (e.g. only odd numbers).  
+5. `05_nested_loops.py` – loops inside loops to build a small multiplication table and assign students to courses.  
+6. `06_combined_loops_example.py` – a realistic shopping-cart style example mixing `for`, `while`, `range`, `break`, and `continue`.
 
 ## Why this matters
 
