@@ -29,3 +29,9 @@ while password != correct_password:
 print("Login successful!")
 
 
+# Practice Examples (add your solutions below):
+# 1. Keep doubling a number starting from 1 until it exceeds 1000
+# 2. Ask user for a positive number, keep asking until they enter one
+# 3. Calculate factorial of a number using while loop
+# 4. Keep asking for password (max 3 attempts) using a counter
+# 5. Find the first number divisible by 7 and 13 between 1-500

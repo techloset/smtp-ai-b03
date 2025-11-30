@@ -25,3 +25,9 @@ for name in names:
 print("Loop finished.")
 
 
+# Practice Examples (add your solutions below):
+# 1. Print all even numbers from 1 to 20
+# 2. Calculate sum of all numbers from 1 to 50
+# 3. Print each character of your name with its position (use a counter)
+# 4. Ask user for a number and print its multiplication table (1 to 10)
+# 5. Count how many vowels are in the word "programming"

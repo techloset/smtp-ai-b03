@@ -27,3 +27,8 @@ for student in students:
         print(f"{student} is enrolled in {course}")
 
 
+# Practice Examples (add your solutions below):
+# 2. Create a 10x10 multiplication table with proper formatting
+# 3. Print all pairs of numbers (i, j) where i+j equals 10 (1≤i,j≤9)
+# 4. Create a diamond pattern using stars (5 rows up, 4 rows down)
+# 5. Find all two-digit numbers where sum of digits equals 10

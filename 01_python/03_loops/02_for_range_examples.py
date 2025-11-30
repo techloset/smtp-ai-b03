@@ -1,25 +1,24 @@
-"""for loop with range()
+"""for loop with range() - Comprehensive Examples
 
 range() is used to generate a sequence of numbers.
 We often use it when we know how many times we want to repeat something.
 
-Examples:
-- Print even numbers from 0 to 10
-- Countdown timer
+    range(stop)           -> generates numbers from 0 to stop-1
+    range(start, stop)    -> generates numbers from start to stop-1
+    range(start, stop, step) -> generates numbers from start to stop-1, incrementing by step
+
+
 """
-
-print("Even numbers from 0 to 10:")
-
-for number in range(0, 11, 2):
-    print(number)
-
-print("--------------------------------")
-
-print("Countdown from 5 to 1:")
-
-for number in range(5, 0, -1):
-    print(number)
-
-print("Blast off!")
-
+ 
+# Basic range() usage
+# print numbers from 2 to 6
+# print even numbers from 0 to 8
+# Even numbers from 0 to 10
+# Reverse iteration
+# sum of numbers from 1 to 10
+# Multiplication table for 7
+# Factorial calculation
+# Print squares and cubes
+# Print every 3rd number from 0-20
+# sum of even and odd numbers from 1 to 20
 
