@@ -8,6 +8,7 @@ fruits = ["apple", "banana", "cherry"]
 print(fruits[0])    # apple (first)
 print(fruits[-1])   # cherry (last)
 
+
 # Change item
 fruits[0] = "mango"
 print(fruits)       # ['mango', 'banana', 'cherry']

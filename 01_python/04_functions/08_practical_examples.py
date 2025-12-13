@@ -1,18 +1,8 @@
 # LESSON 9: Practical Examples - All Concepts Together
 
-# === Example 1: Temperature Converter ===
-def convert_temp(celsius, to="F"):
-    """Converts Celsius to Fahrenheit or Kelvin."""
-    if to == "F":
-        return (celsius * 9/5) + 32
-    elif to == "K":
-        return celsius + 273.15
-    return celsius
 
-print(f"25°C = {convert_temp(25)}°F")
-print(f"25°C = {convert_temp(25, 'K')}K")
 
-# === Example 2: Shopping Cart ===
+# === Example: Shopping Cart ===
 def calculate_total(price, quantity=1, discount=0, tax=0.15):
     """Calculates total with discount and tax."""
     subtotal = price * quantity
@@ -21,7 +11,7 @@ def calculate_total(price, quantity=1, discount=0, tax=0.15):
 
 print(f"Total: ${calculate_total(100, 3, discount=10)}")
 
-# === Example 3: Grade Calculator ===
+# === Example: Grade Calculator ===
 def get_grade(*scores):
     """Returns letter grade from average of scores."""
     avg = sum(scores) / len(scores)
@@ -33,7 +23,7 @@ def get_grade(*scores):
 
 print(f"Grade: {get_grade(85, 92, 78)}")
 
-# === Example 4: User Profile ===
+# === Example: User Profile ===
 def create_profile(name, **details):
     """Creates profile from name and any extra details."""
     print(f"\n=== {name}'s Profile ===")

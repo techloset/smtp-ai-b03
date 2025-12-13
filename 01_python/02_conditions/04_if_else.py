@@ -8,25 +8,21 @@ Example:
 
 score = 72
 
-print("Score:", score)
+# print("Score:", score)
 
-if score >= 50:
-    print("Result: Pass")
-else:
-    print("Result: Fail")
+# if score >= 50:
+#     print("Result: Pass")
+# else:
+#     print("you are fail")
 
-print("--------------------------------")
 
-# Real-world style example: even or odd number checker
+# print("--------------------------------")
+
+# # Real-world style example: even or odd number checker
 number = 9
 
-print("Number:", number)
-
-if number % 2 == 0:
-    print("This is an even number.")
+if number % 2 == 1:
+    print("this is odd number")
 else:
-    print("This is an odd number.")
-
-print("Check complete.")
-
+    print("this is even number")
 

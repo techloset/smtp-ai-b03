@@ -10,30 +10,17 @@ Scenario: online order rules
 - Extra discount if it is a weekend AND total >= 100
 - Otherwise, show normal message
 """
+-
 
-order_total = 85
-is_premium_member = False
-is_weekend = True
+# order_total = int(input("enter you no "))
+# is_premium_member = False
+# is_weekend = False
+# order_total = 85
 
-print("Order total:", order_total)
-print("Is premium member:", is_premium_member)
-print("Is weekend:", is_weekend)
-print("--------------------------------")
-
-# Free shipping rule
-if order_total >= 50 or is_premium_member:
-    print("✅ You get free shipping!")
-else:
-    print("🚚 Shipping will be added to your order.")
-
-# Extra discount rule
-if is_weekend and order_total >= 100:
-    print("🎉 Weekend sale: extra 10% discount applied!")
-elif is_weekend:
-    print("🎉 Weekend sale is on! Add more items to reach 100 for extra discount.")
-else:
-    print("No extra weekend discount today.")
-
-print("Thank you for shopping with us.")
-
-
+# if is_weekend == True:
+#     if order_total >= 100:
+#         print("you have 20% discount")
+#     else:
+#         print("please buy more items to get 20% discount")
+# else:
+#     print("discount not avilable except weekend shopping")

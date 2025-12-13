@@ -6,9 +6,7 @@ fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print(fruit)
 
-# Loop with index
-for i, fruit in enumerate(fruits):
-    print(f"{i+1}. {fruit}")
+
 
 # Calculate with loop
 scores = [85, 90, 78, 92]

@@ -9,6 +9,10 @@ We often use it when we know how many times we want to repeat something.
 
 
 """
+for variable in range(20 , 50, 5):
+
+    print("variable from", variable)
+
  
 # Basic range() usage
 # print numbers from 2 to 6

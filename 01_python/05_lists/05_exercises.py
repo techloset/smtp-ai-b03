@@ -8,10 +8,16 @@
 
 
 # 2. Create a list of numbers [10, 20, 30, 40, 50] and print the middle number.
-
+# arr = [10, 20, 30, 40, 50]
+# lenArr = len(arr)
+# midIndex = lenArr // 2
+# print(arr[midIndex])
 
 # 3. Create an empty list, add 3 fruit names using append(), then print the list.
-
+# fruits = ["Apple", "Banana", "Cherry"]
+# fruits.append("orrange")
+# for i in range(len(fruits)):
+#     print(fruits[i])
 
 # 4. Create a list of 4 names and print how many names are in the list.
 
@@ -36,16 +42,21 @@
 
 # 9. Create a list of words and print only words that start with letter 'a'.
 #    Hint: use word[0] or word.startswith('a')
-
+# arr = ["apple", "banana","apple23",  "cherry", "date", "elderberry"]
+# for i in range(len(arr)):
+#     if arr[i].startswith("a"):
+#         print(arr[i])
 
 # 10. Create two lists and combine them into one list. Print the result.
 #     Hint: use + or extend()
-
+# arr1 = [1, 2, 3]
+# arr2 = [4, 5]
+# arr1.extend(arr2)
+# print(arr1)
 
 # 11. Create a list of numbers and find the second largest number.
 #     Hint: sort the list first
-
-
-# 12. Create a list with some duplicate numbers. Remove all duplicates.
-#     Hint: convert to set and back to list
+# arr = [1, 2, 7,8, 9, 4, 5]
+# arr.sort()
+# print(arr[-2])
 
