@@ -6,7 +6,7 @@
 
 ## 1️⃣ INTRODUCTION (Start the Class)
 
-**Teacher says:**
+
 
 Today we are going to study **File Handling in Python**.
 File handling means **working with files using a program** — reading data from files and writing data into files.
