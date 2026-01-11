@@ -1,7 +1,7 @@
 
-# 📘 Python Modules & Libraries – Complete Guide for Students
+# 📘 Python Modules & Libraries 
 
-This guide explains **modules and libraries in Python from scratch**, using **simple language, real-world examples**, and **step-by-step concepts**.
+
 
 
 ## 📌 Why This Topic Is Important
