@@ -1,26 +1,17 @@
 from fastapi import FastAPI
-from typing import Optional
-from pydantic import BaseModel
 
 app = FastAPI()
 
 
-class User(BaseModel):
-    name: str
-    age:  int
-    height: float
-    weight: float
-    email: str
-
 @app.get("/")
 def get_root():
-    return {"message": "Hello Ali, Howu are you?"}
+    return {"message": "Hello Danish, How are you?"}
 
+@app.get("/create_user")
+def get_root():
+    return {"message": "I have  created a new user"}
 
 @app.get("/items/{item_id}")
-def get_item(item_id: int, age: int, height: Optional[float] = None):
-    return {"item_id": item_id, "age": age, "height": height}
+def get_item(item_id: int):
+    return {"item_id": item_id}
 
-@app.post("/create_user")
-def create_user(user: User):
-    return {"user_name": user.name, "user_age": user.ageuu, "user_email": user.email,  "user_height": user.height, "user_weight": user.weight}

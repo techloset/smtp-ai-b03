@@ -212,6 +212,59 @@ Explain lightly:
 
 ---
 
+## 7.5️⃣ FastAPI HTTP Methods (Quick Overview)
+
+Before diving into parameters, understand **which HTTP method** each endpoint uses.
+
+### Common methods:
+
+| Method   | Use case              | Example              |
+| -------- | ---------------------- | -------------------- |
+| **GET**  | Read / fetch data      | Get user, list items |
+| **POST** | Create new resource    | Signup, add item     |
+| **PUT**  | Replace entire resource| Update user fully    |
+| **PATCH**| Update part of resource| Change one field     |
+| **DELETE** | Remove resource     | Delete user, item    |
+
+### Little code examples:
+
+```python
+from fastapi import FastAPI
+
+app = FastAPI()
+
+# GET — read data (no body)
+@app.get("/users/{user_id}")
+def get_user(user_id: int):
+    return {"user_id": user_id}
+
+# POST — create (data in body)
+@app.post("/users")
+def create_user(name: str, age: int):
+    return {"created": name, "age": age}
+
+# PUT — replace whole resource
+@app.put("/users/{user_id}")
+def replace_user(user_id: int, name: str):
+    return {"user_id": user_id, "name": name}
+
+# PATCH — update only some fields
+@app.patch("/users/{user_id}")
+def update_user(user_id: int, name: str = None):
+    return {"user_id": user_id, "updated": name}
+
+# DELETE — remove resource
+@app.delete("/users/{user_id}")
+def delete_user(user_id: int):
+    return {"deleted": user_id}
+```
+
+### Teaching line:
+
+> **GET** = read, **POST** = create, **PUT** = replace all, **PATCH** = update part, **DELETE** = remove.
+
+---
+
 # ⭐ CORE DAY-1 CONCEPT ⭐
 
 ## Understanding Parameters (DEEP + SIMPLE)
